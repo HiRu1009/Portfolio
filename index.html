@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiruni Maleesha | UI/UX Designer & Business Analyst</title>
+    <title>Hiruni Maleesha | Creative Designer & UI/UX Designer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Base Styles */
@@ -375,7 +375,7 @@
             margin-bottom: 10px;
         }
 
-        /* Skills Section */
+        /* Skills Section - updated with tags */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -393,8 +393,45 @@
             margin-bottom: 20px;
             color: var(--primary-light);
             font-size: 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 10px;
         }
 
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: rgba(37, 99, 235, 0.2);
+            border: 1px solid rgba(37, 99, 235, 0.3);
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            color: var(--light);
+            transition: var(--transition);
+        }
+
+        .skill-tag:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .skill-text-item {
+            margin-bottom: 12px;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .skill-text-item i {
+            color: var(--primary-light);
+            margin-right: 8px;
+            font-size: 0.9rem;
+        }
+
+        /* Languages bars retain original style */
         .skill-item {
             margin-bottom: 15px;
         }
@@ -448,6 +485,17 @@
 
         .project-desc {
             margin-bottom: 15px;
+        }
+
+        .certify-note {
+            text-align: center;
+            font-style: italic;
+            margin: 40px auto 0;
+            padding: 20px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 10px;
+            max-width: 700px;
+            border-left: 4px solid var(--primary);
         }
 
         /* Footer */
@@ -578,12 +626,12 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>Hiruni Maleesha</h1>
-                    <h2>UI/UX Designer & Business Analyst</h2>
-                    <p>I'm a passionate UI/UX designer and business analyst with expertise in creating user-friendly, visually appealing solutions and analyzing business requirements.</p>
+                    <h2>Creative Designer | UI/UX Designer</h2>
+                    <p>I'm a creative designer with a strong foundation in IT and hands-on experience in UI/UX design, website management, and digital content creation. Experienced in corporate environments, aligning visuals with strategic business objectives.</p>
                     <a href="#contact" class="btn">Get in Touch</a>
                 </div>
                 <div class="hero-image">
-                    <img src="https://github.com/HiRu1009/Portfolio/blob/main/imgportfolio.png?raw=true" alt="Hiruni Maleesha">
+                    <img src="C:\Users\ASUS\Desktop\Hportfolio\imgportfolio.png" alt="Hiruni Maleesha">
                 </div>
             </div>
         </div>
@@ -595,9 +643,7 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm Hiruni Maleesha. I have completed the 1st year of BSc (Hons) IT for Business degree at NIBM. I worked as a Business Analyst intern at DIMO Lanka PLC IT department.</p>
-                    <p>Now I'm currently following ACHRM at CIPM. I have hands-on experience in project coordination, task planning, and team communication through my internship.</p>
-                    <p>I'm also passionate about UI/UX designs, with practical skills in creating user-friendly, visually appealing solutions. I thrive in fast-paced, collaborative environments and enjoy solving problems with creativity.</p>
+                    <p>I'm Hiruni Maleesha. An innovative and versatile Creative Designer with a strong foundation in IT and hands-on experience in UI/UX design, website management, and digital content creation. Experienced in corporate environments, I understand how to align creative visuals with strategic business objectives. Skilled in developing engaging posters, digital assets, and user-centered designs. Passionate about delivering impactful visual experiences while maintaining brand consistency and professional standards.</p>
                 </div>
                 <div class="personal-details">
                     <h3>Personal Details</h3>
@@ -623,23 +669,15 @@
                     </div>
                     <div class="detail-item">
                         <span class="detail-label">LinkedIn:</span>
-                        <span class="detail-value"><a href="https://www.linkedin.com/in/hiruni-maleesha-24571a2a6" target="_blank">linkedin.com/hirunimaleesha</a></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">Dribble:</span>
-                        <span class="detail-value"><a href="https://dribbble.com/maleeshahiruni222" target="_blank">dribbble.com/maleeshahiruni</a></span>
+                        <span class="detail-value"><a href="https://www.linkedin.com/in/hiruni-maleesha-24571a2a6" target="_blank">linkedin.com/in/hiruni-maleesha-24571a2a6</a></span>
                     </div>
                     <div class="detail-item">
                         <span class="detail-label">Behance:</span>
-                        <span class="detail-value"><a href="https://www.behance.net/hirunimaleesha1" target="_blank">behance.net/hirunimaleesha</a></span>
+                        <span class="detail-value"><a href="https://www.behance.net/hirunimaleesha" target="_blank">behance.net/hirunimaleesha</a></span>
                     </div>
                     <div class="detail-item">
-                        <span class="detail-label">Instagram:</span>
-                        <span class="detail-value"><a href="https://www.instagram.com/hiruni_thiranagama?igsh=MW5xeW5uaHd0NTV2YQ==" target="_blank">instagram.com/maleeshahiruni</a></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">Tiktok:</span>
-                        <span class="detail-value"><a href="https://www.tiktok.com/@hiru_0709?_t=ZS-8zinRXH7vg8&_r=1" target="_blank">tiktok.com/hirunimaleesha</a></span>
+                        <span class="detail-label">Portfolio:</span>
+                        <span class="detail-value"><a href="https://hiru1009.github.io/Portfolio" target="_blank">hiru1009.github.io/Portfolio</a></span>
                     </div>
                 </div>
             </div>
@@ -653,14 +691,21 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">2025</div>
-                        <h3 class="timeline-title">Professional Qualification Advance Certificate in HRM</h3>
-                        <p>Following at CIPM</p>
+                        <div class="timeline-date">2026</div>
+                        <h3 class="timeline-title">HSK1 Chinese Language Exam</h3>
+                        <p>Completed</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">2022-2023</div>
+                        <div class="timeline-date">2025 - 2026</div>
+                        <h3 class="timeline-title">Professional Qualification Advance Certificate in HRM</h3>
+                        <p>Completed at CIPM</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2023</div>
                         <h3 class="timeline-title">Diploma in Computer System Design</h3>
                         <p>Completed</p>
                     </div>
@@ -674,14 +719,21 @@
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">2013-2021</div>
-                        <h3 class="timeline-title">Anura National College Yakkala</h3>
-                        <p>G.C.E. Advanced Level (Art Stream, 2021) & G.C.E. Ordinary Level (2018)</p>
+                        <div class="timeline-date">2019</div>
+                        <h3 class="timeline-title">British Council KET Exam</h3>
+                        <p>Passed with Merit</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-date">2008-2012</div>
+                        <div class="timeline-date">2013 - 2021</div>
+                        <h3 class="timeline-title">Anura National College Yakkala</h3>
+                        <p>G.C.E. Advanced Level (Art Stream, 2021) · G.C.E. Ordinary Level (2018)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2008 - 2012</div>
                         <h3 class="timeline-title">Anura Junior School Yakkala</h3>
                     </div>
                 </div>
@@ -709,7 +761,7 @@
                         </div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-name">Chinese</div>
+                        <div class="skill-name">Chinese (HSK1)</div>
                         <div class="skill-bar">
                             <div class="skill-level" style="width: 40%;"></div>
                         </div>
@@ -719,93 +771,82 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section (updated with tags) -->
     <section id="skills">
         <div class="container">
             <h2 class="section-title">Skills Summary</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>UI/UX Design</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">Figma</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Adobe XD</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Canva</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 95%;"></div>
-                        </div>
+                    <h3>Graphic Designing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Adobe Express</span>
+                        <span class="skill-tag">Adobe PS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Canva</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Technical Skills</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">MS SQL</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 80%;"></div>
-                        </div>
+                    <h3>Video Editing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Adobe Express</span>
+                        <span class="skill-tag">Capcut</span>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-name">HTML/CSS</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 85%;"></div>
-                        </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Digital Arts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">IbispaintX</span>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-name">WordPress</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 75%;"></div>
-                        </div>
+                </div>
+                <div class="skill-category">
+                    <h3>UI/UX Design & Prototyping</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Adobe Express</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MS SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Task & Workflow Management</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MS Planner</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Project Management Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Sharepoint</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Slack</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Business Analysis</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">Requirements Gathering</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Agile & Scrum</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">UAT</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 80%;"></div>
-                        </div>
+                    <div class="skill-text-item"><i class="fas fa-check-circle"></i> UAT (User Acceptance Testing)</div>
+                    <div class="skill-text-item"><i class="fas fa-check-circle"></i> Requirements Gathering (BRD, FRD, SRS)</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Designing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Framer</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools</h3>
-                    <div class="skill-item">
-                        <div class="skill-name">MS Planner</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Jira</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Power BI</div>
-                        <div class="skill-bar">
-                            <div class="skill-level" style="width: 70%;"></div>
-                        </div>
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Critical thinking</span>
+                        <span class="skill-tag">Problem solving</span>
+                        <span class="skill-tag">Effective communication</span>
                     </div>
                 </div>
             </div>
@@ -819,10 +860,18 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
+                        <div class="timeline-date">Aug 2025 - Feb 2026</div>
+                        <h3 class="timeline-title">Creative Designer Intern</h3>
+                        <p>M Entertainments, No.146, Dawson Street, Colombo 02</p>
+                        <p>Created social media posts, thumbnails, video contents; developed new concepts to build content quality (6 months).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
                         <div class="timeline-date">Aug 2024 - Feb 2025</div>
                         <h3 class="timeline-title">Business Analyst Intern</h3>
                         <p>DIMO Lanka PLC, Colombo 14</p>
-                        <p>Worked as a Business Analyst intern at DIMO Lanka PLC IT department for 6 months.</p>
+                        <p>Worked in IT department on requirement gathering, UI coordination, and project tasks for 6 months.</p>
                     </div>
                 </div>
             </div>
@@ -837,39 +886,44 @@
                 <div class="project-card">
                     <div class="project-content">
                         <h3 class="project-title">Automation Exam Paper Marking System</h3>
-                        <p class="project-desc">Designed UI designs for automation exam paper marking system in DATS academy DIMO.</p>
+                        <p class="project-desc">Designed UI for automation exam paper marking system at DATS academy DIMO.</p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
                         <h3 class="project-title">Fuel Card Management System</h3>
-                        <p class="project-desc">Designed UI designs and logo for fuel card management system in DIMO Lanka PLC.</p>
+                        <p class="project-desc">UI designs and logo design for fuel card management system at DIMO Lanka PLC.</p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Repairing System Automation</h3>
-                        <p class="project-desc">Design an automation system for a repairing system with user interfaces (Final Project).</p>
+                        <h3 class="project-title">M Entertainments Content Creation</h3>
+                        <p class="project-desc">Social media posts, thumbnails, video contents; concept development for content quality.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Repairing System Automation (Final Project)</h3>
+                        <p class="project-desc">Designed automation system with user interfaces for Professional Audio Visual Sri Lanka.</p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
                         <h3 class="project-title">Hotel Management System</h3>
-                        <p class="project-desc">Developed hotel management system using C#.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Shopping Mall Parking System</h3>
-                        <p class="project-desc">Developed shopping mall parking system using IOT and electronics.</p>
+                        <p class="project-desc">Developed using C# (self project).</p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
                         <h3 class="project-title">Flower Shop Website</h3>
-                        <p class="project-desc">Developed website for flower shop using HTML, CSS, JS and PHP.</p>
+                        <p class="project-desc">Developed using HTML, CSS, JS, PHP (self project).</p>
                     </div>
                 </div>
+            </div>
+            <!-- Certification note -->
+            <div class="certify-note">
+                <p>I certify all the above mentioned details are accurate and up to date to the best of my knowledge.</p>
+                <p style="margin-top: 10px; font-weight: 600;">— Hiruni Maleesha</p>
             </div>
         </div>
     </section>
@@ -891,11 +945,11 @@
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/hiruni-maleesha-24571a2a6" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://dribbble.com/maleeshahiruni222" target="_blank"><i class="fab fa-dribbble"></i></a>
-                <a href="https://www.behance.net/hirunimaleesha1" target="_blank"><i class="fab fa-behance"></i></a>
+                <a href="https://www.behance.net/hirunimaleesha" target="_blank"><i class="fab fa-behance"></i></a>
                 <a href="https://www.instagram.com/hiruni_thiranagama?igsh=MW5xeW5uaHd0NTV2YQ==" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.tiktok.com/@hiru_0709?_t=ZS-8zinRXH7vg8&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
             </div>
-            <p class="copyright">© 2025 Hiruni Maleesha. All Rights Reserved.</p>
+            <p class="copyright">© 2026 Hiruni Maleesha. All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -918,6 +972,4 @@
         });
     </script>
 </body>
-
 </html>
-
